@@ -1,0 +1,20 @@
+Source: python3-pymeta
+Section: Python
+Priority: optional
+Maintainer: Salvador E. Tropea <stropea@inti.gob.ar>
+Build-Depends: debhelper (>=11~), dh-python, python3-all
+Standards-Version: 4.1.4
+Homepage: https://github.com/wbond/pybars3
+X-Python3-Version: >= 3.2
+
+Package: python3-pymeta
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: A Pattern-Matching Language Based on Python
+ PyMeta is an implementation of OMeta, an object-oriented pattern-matching
+ language developed by Alessandro Warth
+ (http://www.cs.ucla.edu/~awarth/ometa/). PyMeta provides a compact syntax
+ based on Parsing Expression Grammars (PEGs) for common lexing, parsing and
+ tree-transforming activities in a way that's easy to reason about for Python
+ programmers.
